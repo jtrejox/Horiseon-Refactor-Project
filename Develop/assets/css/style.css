@@ -1,13 +1,16 @@
+/*GENERAL ATTRIBUTES=================================*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*BODDY ATTRIBUTES====================================*/
 body {
     background-color: #d9dcd6;
 }
 
+/*HEADDER ATTRIBUTES====================================*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,15 +45,18 @@ body {
     margin-left: 25px;
 }
 
+/*LINK ATTRIBUTES=============================================*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*PARAGRAPH ATTRIBUTES==========================================*/
 p {
     font-size: 28px;
 }
 
+/*HERO BANNER ATTRIBUTES=============================================*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +66,7 @@ p {
     background-position: center;
 }
 
+/*FLOAT IMAGE ATTRIBUTES===================================================*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,12 +77,14 @@ p {
     margin-left: 25px;
 }
 
+/*CONTENT DIV ATTRIBUTES======================================================*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*BENEFITS DIV ATTRIBUTES==============================================================*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,6 +122,7 @@ p {
     max-width: 150px;
 }
 
+/*MAIN CONTENT DIV ATTRIBUTES===========================================================*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 80px;
@@ -133,6 +143,7 @@ p {
     font-size: 44px;
 }
 
+/*FOOTER ATTRIBUTES=========================================================================*/
 .footer {
     padding: 30px;
     clear: both;
