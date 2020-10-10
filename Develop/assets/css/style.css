@@ -45,6 +45,12 @@ body {
     margin-left: 25px;
 }
 
+.header ul li a:focus, .header div ul li a:hover{
+    background-color: #7c4626;
+    padding: 0px 2px 35px 2px;
+    outline: none;
+}
+
 /*LINK ATTRIBUTES=============================================*/
 a {
     color: #ffffff;
@@ -132,6 +138,9 @@ p {
     color: #ffffff;
 }
 
+#search-engine-optimization:focus, .online-reputation-management:focus, .social-media-marketing:focus, .benefits:focus, .footer:focus{
+    outline: #ddad0e solid 15px;
+}
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
@@ -154,3 +163,7 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/*.footer:focus{
+    outline: #ddad0e solid 15px;   
+}*/
