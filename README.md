@@ -66,13 +66,13 @@ I have implemented only slight cosmetic changes to the original site, however, t
 <br>
 <br>
 
-![NavBar Image](../Horiseon-Refactor-Project/Assets/Navbar.jpg)
+![NavBar Image](../Horiseon-Refactor-Project/images/Navbar.jpg)
 * **The nav bar list items are now highligted when they are selected through TAB as well as when they are hovered over by a mouse to improve visibility and to improve navigation.**
 
 <br>
 <br>
 
-![Content Image](../Horiseon-Refactor-Project/Assets/Content.jpg)
+![Content Image](../Horiseon-Refactor-Project/images/Content.jpg)
 
 * **The content elements are also now higligted to allow phisicaly disabled users to know where their screen reeders are focused on, I also added tabindex attributes to allow users to backtab from any content item to the main nav bar for ease of navigation**
 
