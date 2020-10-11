@@ -122,4 +122,4 @@ SOFTWARE.
 ## Review
 
 * GitHub Repository: https://github.com/jtrejox/Horiseon-Refactor-Project
-* 
+* Live Page: https://jtrejox.github.io/Horiseon-Refactor-Project/
