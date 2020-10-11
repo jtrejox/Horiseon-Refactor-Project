@@ -1,0 +1,163 @@
+/*GENERAL ATTRIBUTES==============================
+
+/*BODDY ATTRIBUTES====================================*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*NAV BAR ATTRIBUTES====================================*/
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.4vw;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+nav a:focus, nav a:hover{
+    background-color: #7c4626;
+    padding-bottom: 1em ;
+    outline: none;
+}
+
+.nvmenus{
+    margin-left: 11%;
+    justify-content: flex-end;
+    flex:75%;
+}
+.nvmenus a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nvtitle{
+    justify-content: flex-start;
+    flex: 20%;
+}
+
+/*H1, H2, H3, H4 ATTRIBUTES==================================================*/
+h1{
+    padding: 6%;
+    font-size: 3.8vw;
+    margin-right: 14%;
+    display: inline;
+}
+
+h2{
+    margin-bottom: 0px;
+    display: inline;
+    font-size: 3vw;
+}
+
+h3{
+    font-size: 2.3vw;
+    margin-bottom: 1.5%;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.5vw;
+}
+/*PARAGRAPH ATTRIBUTES==========================================*/
+p {
+    font-size: 1.8vw;
+}
+
+/*HERO BANNER ATTRIBUTES=============================================*/
+header {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+/*MAIN ATTRIBUTES======================================================*/
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*ARTICLE ATTRIBUTES==================================================*/
+article{
+    margin-right: 1%;
+    flex: 80%;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 2%;
+    padding: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+img{
+    flex-shrink: -1;
+    max-width: 100%;
+}
+
+.image-right{
+    width: 100%;
+    max-height: 80%;
+    margin-left: 2%;
+    flex: 40%;   
+}
+
+.image-left{
+    width: 100%;
+    max-height: 80%;
+    margin-right: 2%;
+    flex: 40%;   
+}
+
+.text-block{
+    flex-direction: column;
+    flex: 60%;
+}
+
+.container:focus{
+    outline: #ddad0e solid 1em;      
+}
+/*ASIDE ATTRIBUTES==================================================*/
+aside{
+    flex: 20%;
+    width: 20%;
+    height: 100%;
+    padding: 0% 1.3% 1% 1.3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+.sidebar{
+    margin-bottom: 3%;
+}
+
+.sidebar img{
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    max-width: 70%;
+}
+
+aside:focus{
+    outline: #ddad0e solid 1em;   
+}
+
+/*FOOTER ATTRIBUTES=========================================================================*/
+footer {
+    font-size: -1vw;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer:focus{
+    outline: #ddad0e solid 1em;   
+}
